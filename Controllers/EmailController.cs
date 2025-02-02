@@ -7,9 +7,9 @@ namespace CentralFinanceApi.Controllers
     [Route("[controller]")]
     public class EmailController : ControllerBase
     {
-        private IActiveAccounts _scrapperService;
+        private IEmailScrapper _scrapperService;
 
-        public EmailController(IActiveAccounts scrapperService)
+        public EmailController(IEmailScrapper scrapperService)
         {
             _scrapperService = scrapperService;
         }
