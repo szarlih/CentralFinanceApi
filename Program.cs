@@ -1,4 +1,4 @@
-using EmailInvoiceExctractor;
+using EmailInvoiceExctractor.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 

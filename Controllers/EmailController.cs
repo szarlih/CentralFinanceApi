@@ -1,4 +1,4 @@
-﻿using EmailInvoiceExctractor;
+﻿using EmailInvoiceExctractor.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CentralFinanceApi.Controllers
