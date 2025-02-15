@@ -24,7 +24,7 @@ namespace CentralFinanceApi.Controllers
         [HttpPatch(Name = "StartAccountsScrapping")]
         public void StartScrapping()
         {
-            
+            _scrapperService.TriggerImmediateCheck();
         }
     }
 }
